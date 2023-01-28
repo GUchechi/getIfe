@@ -1,7 +1,6 @@
 import React from "react";
 import logo2 from "../Assets/logo2.png";
 import {
-  FaDiscord,
   FaInstagram,
   FaTelegramPlane,
   FaTwitter,
@@ -20,7 +19,7 @@ const Footer = () => {
           <FaTelegramPlane size={25} />
         </div>
         <div className="font-bold text-[16px] mr-3">
-          <p>&copy; ifẹ, 2022</p>
+          <p>&copy; ifẹ, 2023</p>
         </div>
       </div>
     </div>
