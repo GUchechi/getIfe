@@ -22,7 +22,7 @@ const Gift = () => {
           </div>
           <div className="flex border-[#feefe5] shadow-xl  flex-col border rounded-2xl py-12 px-8">
             <div>
-              <div className="bg-[#feefe5] text-[#920F0F] inline-flex p-6 shadow-xl  rounded-full">
+              <div className="animate-bounce bg-[#feefe5] text-[#920F0F] inline-flex p-6 shadow-xl  rounded-full">
                 <FiGift size={40}/>
               </div>
               <h2 className="text-xl font-bold py-7">
