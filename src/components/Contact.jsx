@@ -43,18 +43,11 @@ const Contact = () => {
             />
           </div>
         </div>
-        <div class="md:flex md:items-center mb-6">
-          <div class="md:w-1/3"></div>
-          <label class="md:w-2/3 block text-gray-500 font-bold">
-            <input class="mr-2 leading-tight" type="checkbox" />
-            <span class="text-sm">Yes,I agree to join Ife's Waitlist</span>
-          </label>
-        </div>
         <div class="md:flex md:items-center">
           <div class="md:w-1/3"></div>
           <div class="md:w-2/3">
             <button
-              class="items-center shadow-xl bg-[#920F0F] hover:bg[#920F0F] focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+              class="items-center text-center justify-center shadow-xl bg-[#920F0F] hover:bg[#920F0F] focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
               type="button"
             >
               Sign Up
