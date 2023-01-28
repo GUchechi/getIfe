@@ -27,11 +27,11 @@ const Home = () => {
               Share gifts easily and securely using blockchain technology
             </h5>
             <button className="py-2 px-4 w-44">Get Early Access</button>
-            <div className="flex gap-5 lg:text-3xl text-1xl">
+            <div className="flex gap-6 lg:text-2xl text-1xl">
               <p>Follow us on</p>
-              <FaTwitter className="cursor-pointer" size={20} />{" "}
-              <FaTelegramPlane className="cursor-pointer" size={20} />{" "}
-              <FaInstagram className="cursor-pointer" size={20} />
+              <FaTwitter className="cursor-pointer" size={25} />{" "}
+              <FaTelegramPlane className="cursor-pointer" size={25} />{" "}
+              <FaInstagram className="cursor-pointer" size={25} />
             </div>
           </div>
         </div>
