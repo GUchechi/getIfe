@@ -9,8 +9,8 @@ import hero from "../Assets/Hero.jpg";
 
 const Hero = () => {
   return (
-    <>
-      <div className="w-full h-full">
+    <> 
+      <div className="w-full">
         <img src={hero} alt="Hero" className="w-full h-[450px] lg:h-full object-cover" />
         <div className="max-w-[1140px] m-auto">
           <div className="absolute top-[22%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4">

@@ -10,7 +10,7 @@ const Gift = () => {
         {/* Card Container */}
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Card */}
-          <div className="flex border-[#feefe5] shadow  flex-col border rounded-2xl py-12 px-8">
+          <div className="flex border-[#feefe5] shadow-xl flex-col border rounded-2xl py-12 px-8">
             <div>
               <div className="bg-[#feefe5] inline-flex p-6 shadow-xl  rounded-full">
                 <img src={Vector} alt="" width="40" />
@@ -22,7 +22,7 @@ const Gift = () => {
           </div>
           <div className="flex border-[#feefe5] shadow-xl  flex-col border rounded-2xl py-12 px-8">
             <div>
-              <div className="animate-bounce bg-[#feefe5] text-[#920F0F] inline-flex p-6 shadow-xl  rounded-full">
+              <div className="animate-bounce bg-[#feefe5] text-[#920F0F] inline-flex p-6 shadow-xl rounded-full">
                 <FiGift size={40}/>
               </div>
               <h2 className="text-xl font-bold py-7">
