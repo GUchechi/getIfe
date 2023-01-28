@@ -12,7 +12,7 @@ const Gift = () => {
           {/* Card */}
           <div className="flex border-[#feefe5] shadow-xl flex-col border rounded-2xl py-12 px-8">
             <div>
-              <div className="bg-[#feefe5] inline-flex p-6 shadow-xl  rounded-full">
+              <div className="animate-bounce bg-[#feefe5] inline-flex p-6 shadow-xl  rounded-full">
                 <img src={Vector} alt="" width="40" />
               </div>
               <h2 className="text-xl font-bold py-7">
@@ -32,7 +32,7 @@ const Gift = () => {
           </div>
           <div className="flex border-[#feefe5] shadow-xl  flex-col border rounded-2xl py-12 px-8">
             <div>
-              <div className="bg-[#feefe5] inline-flex p-6 shadow-xl text-[#920F0F] rounded-full">
+              <div className="animate-bounce bg-[#feefe5] inline-flex p-6 shadow-xl text-[#920F0F] rounded-full">
                 <FaDrum  size={40}/>
               </div>
               <h2 className="text-xl font-bold py-7">

@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-white px-3 ">
       <div className="flex items-center font-medium justify-between">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          <img src={logo} alt="logo" className="md:cursor-pointer h-9" />
+          <img src={logo} alt="logo" className="md:cursor-pointer animate-pulse h-9" />
           <div
             className="text-3xl text-[#920F0F] md:hidden"
             onClick={() => setOpen(!open)}
