@@ -8,7 +8,7 @@ const Home = () => {
       <div className=" relative">
         {/* Overlay */}
         <div className="absolute w-full h-full text-white bg-black/60 flex flex-col">
-          <div className="flex flex-col gap-4 lg:gap-[40px] absolute lg:top-[28%] px-7">
+          <div className="flex flex-col top-1 gap-4 lg:gap-[40px] absolute lg:top-[28%] px-7">
             <h1 className="px-4 text-2xl md:text-5xl lg:text-6xl font-bold">
               World's largest AI gift sharing platform
             </h1>
