@@ -40,7 +40,7 @@ const Footer = () => {
             <FaLinkedinIn size={25} />
           </a>
         </div>
-        <div className="font-bold text-[16px] mr-3">
+        <div className="font-bold text-[19px] mr-3 mt">
           <p>&copy;ife 2023</p>
         </div>
       </div>
