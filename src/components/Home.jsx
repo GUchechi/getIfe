@@ -1,7 +1,11 @@
 import React from "react";
 import hero from "../Assets/Hero.jpg";
-import { FaInstagram, FaTelegramPlane, FaTwitter } from "react-icons/fa";
-import Typewriter from "typewriter-effect";
+import {
+  FaInstagram,
+  FaLinkedinIn,
+  FaTelegramPlane,
+  FaTwitter,
+} from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -19,13 +23,38 @@ const Home = () => {
             <button className=" py-2 px-4 w-44">Get Early Access</button>
             <div className="flex gap-6 lg:text-2xl text-1xl">
               <p>Follow us on</p>
-              <FaTwitter className="cursor-pointer" size={25} />{" "}
-              <FaTelegramPlane className="cursor-pointer" size={25} />{" "}
-              <FaInstagram className="cursor-pointer" size={25} />
+              <a
+                href="https://twitter.com/GetIfe_?t=p0hcy56HUd4ooW5BYR_Ylw&s=09"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter className="cursor-pointer" size={25} />
+              </a>{" "}
+              <a
+                href="https://t.me/+N-aOeJghIGliZWM8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTelegramPlane className="cursor-pointer" size={25} />{" "}
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className="cursor-pointer" size={25} />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn className="cursor-pointer" size={25} />
+              </a>
             </div>
           </div>
         </div>
-        <img src={hero} className='h-[400px] lg:h-full' alt="" />
+        <img src={hero} className="h-[400px] lg:h-full" alt="" />
       </div>
     </div>
   );
