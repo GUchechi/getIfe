@@ -32,7 +32,7 @@ const ProductSection = () => {
         </div>
       </div>
 
-      <p className="px-12 font-fold text-2xl lg:text-3xl text-center">
+      <p className="px-6 text-xl lg:text-2xl text-center">
         ifẹ uses artificial intelligence to analyse the interests, lifestyle and
         preferences of both the giver and the recipients so that you can be sure
         that you are giving and receiving the perfect gift.
