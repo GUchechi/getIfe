@@ -5,7 +5,7 @@ import Rectangle67 from "../Assets/Rectangle 67.png";
 
 const ProductSection = () => {
   return (
-    <section className="bg-[#920F0F] text-white py-12">
+    <section className="bg-[#920F0F] text-white lg:py-[3rem] py-0 px-1">
       <div className="max-w-[1640px] mx-auto p-4 py-5 grid md:grid-cols-3 px-12 gap-6 ">
         <div className="rounded-xl relative">
           <img
