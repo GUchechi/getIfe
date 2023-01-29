@@ -4,6 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const handleClose = () => setOpen(!open);
   return (
     <nav className="bg-white px-3 ">
       <div className="flex items-center font-medium justify-between">
@@ -33,7 +34,7 @@ const Navbar = () => {
         `}
         >
           <div className="py-5">
-            <Link to="contact" smooth={true} duration={500}>
+            <Link to="contact" smooth={true} duration={500} onClick={handleClose}>
               <button className="text-white px-3 py-3">Get Early Access</button>
             </Link>
           </div>
