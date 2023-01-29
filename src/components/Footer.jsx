@@ -26,14 +26,14 @@ const Footer = () => {
             <FaTelegramPlane className="cursor-pointer" size={25} />{" "}
           </a>
           <a
-            href="https://example.com"
+            href="https://www.instagram.com/invites/contact/?i=58dvljrve89u&utm_content=jdf2w0y"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram className="cursor-pointer" size={25} />
           </a>
           <a
-            href="https://example.com"
+            href="https://www.linkedin.com/company/getife-com/"
             target="_blank"
             rel="noopener noreferrer"
           >
