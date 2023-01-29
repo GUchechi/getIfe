@@ -53,6 +53,7 @@ const Contact = () => {
               type="text"
               placeholder="Name"
               name="user_name"
+              required
             />
           </div>
         </div>
@@ -68,6 +69,7 @@ const Contact = () => {
               id="inline-password"
               type="Email"
               placeholder="Email"
+              required
               name="user_email"
             />
           </div>
