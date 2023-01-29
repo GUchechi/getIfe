@@ -31,7 +31,7 @@ const Contact = () => {
       name="contact"
       className="flex flex-col bg-[#feefe5] justify-center items-center w-full h-full py-12"
     >
-      <div className="flex flex-col justify-center items-center px-12 py-12">
+      <div className="flex flex-col justify-center items-center px-6 py-12">
         <h2 className="font-bold text-center lg:text-6xl sm:text-4xl text-[48px]">
           Be among the first to experience ifẹ
         </h2>
