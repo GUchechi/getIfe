@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="flex flex-col bg-[#feefe5] justify-center items-center w-full h-full py-12"
+      className="flex flex-col bg-[#FEEFE5] justify-center items-center w-full h-full py-12"
     >
       <div className="flex flex-col justify-center items-center px-6 py-12">
         <h2 className="font-bold text-center lg:text-6xl sm:text-4xl text-[48px]">
@@ -39,12 +39,12 @@ const Contact = () => {
           We’ll keep you updated when the product launches
         </p>
       </div>
-      <form ref={form} onSubmit={sendEmail} className="w-full px-3 max-w-sm">
+      <form ref={form} onSubmit={sendEmail} className="w-full px-6 max-w-sm">
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
             <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
               Name
-            </label>
+            </label> 
           </div>
           <div className="md:w-2/3">
             <input
@@ -76,7 +76,7 @@ const Contact = () => {
         </div>
         <div className="md:flex md:items-center">
           <div className="md:w-1/3"></div>
-          <div className="md:w-2/3">
+          <div className="md:w-2/3 flex items-center justify-center">
             <button
               className="items-center text-center justify-center shadow-xl bg-[#920F0F] hover:bg[#920F0F] focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded-full"
               type="submit"
