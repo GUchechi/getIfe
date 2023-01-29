@@ -1,7 +1,7 @@
 import React from "react";
-import Rectangle from "../Assets/Rectangle 65.png";
-import Rectangle66 from "../Assets/Rectangle 66.png";
-import Rectangle67 from "../Assets/Rectangle 67.png";
+import Rectangle from "../Assets/ss4.png";
+import Rectangle66 from "../Assets/ss5.png";
+import Rectangle67 from "../Assets/ss6.png";
 
 const ProductSection = () => {
   return (
