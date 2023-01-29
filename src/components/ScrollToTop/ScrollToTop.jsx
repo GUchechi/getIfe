@@ -12,7 +12,7 @@ function ScrollToTop() {
     <div className="scroll">
       <Link to="home" smooth={true} duration={500}>
         <a href="#" className={`${visible ? "block" : "none"} scrollIcon`}>
-          <FaChevronUp size={30} className="svg" />
+          <FaChevronUp size={20} className="svg" />
         </a>
       </Link>
     </div>
