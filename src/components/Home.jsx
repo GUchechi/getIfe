@@ -12,7 +12,7 @@ const Home = () => {
     <div className="w-full mx-auto">
       <div className=" relative">
         {/* Overlay */}
-        <div className="absolute w-full h-full text-white bg-black/60 flex flex-col">
+        <div className="absolute w-full h-full text-white bg-black/50 flex flex-col">
           <div className=" flex text-center items-center lg:text-start lg:items-start flex-col top-16 gap-8 lg:gap-[50px] absolute lg:top-[28%] lg:ml-[70px]">
             <h1 className="px-4 text-[30px] md:text-5xl lg:text-7xl font-bold">
               World's largest AI gift sharing platform
