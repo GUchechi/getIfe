@@ -10,10 +10,13 @@ function ScrollToTop() {
   });
   return (
     <div className="scroll">
-      <Link to="home" smooth={true} duration={500}>
-        <a href="#" className={`${visible ? "block" : "none"} scrollIcon`}>
-          <FaChevronUp size={20} className="svg" />
-        </a>
+      <Link
+        to="home"
+        smooth={true}
+        duration={500}
+        className={`${visible ? "block" : "none"} scrollIcon cursor-pointer`}
+      >
+        <FaChevronUp size={20} className="svg" />
       </Link>
     </div>
   );
