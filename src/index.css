@@ -22,3 +22,61 @@
 body{
   overflow-x: hidden;
 }
+
+.iframe-first-container {
+  text-align: center;
+  background-color: rgba(254, 239, 229, 1) !important;
+  max-width: 540px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #feefe5;
+  border-style: solid;
+}
+
+.iframe-second {
+  font-size: 16px;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #661d1d;
+  background-color: #ffeded;
+  border-radius: 3px;
+  border-color: #ff4949;
+}
+
+.iframe-three {
+  font-size: 12px;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #8390a4;
+  text-align: left;
+}
+
+.iframe-four {
+  font-size: 16px;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #661d1d;
+  background-color: #ffeded;
+  border-radius: 3px;
+  border-color: #ff4949;
+}
+
+.iframe-five {
+  font-size: 12px;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #8390a4;
+  text-align: left;
+}
+
+.iframe-six {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 700;
+  font-family: "Futura", sans-serif;
+  color: #ffffff;
+  background-color: #920f0f;
+  border-radius: 20px;
+  border-width: 0px;
+}
+
