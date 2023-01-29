@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="">
       <div className=" w-full flex items-center justify-center h-full bg-[#920F0F] text-white py-4  gap-[30px]">
         <div className="">
-          <FaGift size={22} height="55px" className="mx-3 animate-spin"  alt="" />
+          <FaGift size={22} height="55px" className="mx-3"  alt="" />
         </div>
         <div className="font-bold mr-1 flex gap-6">
           <FaTwitter size={25} />

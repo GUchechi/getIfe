@@ -11,17 +11,7 @@ const Home = () => {
         <div className="absolute w-full h-full text-white bg-black/60 flex flex-col">
           <div className="flex flex-col top-1 gap-4 lg:gap-[40px] absolute lg:top-[28%] px-7">
             <h1 className="px-4 text-[20px] md:text-5xl lg:text-6xl font-bold">
-              <Typewriter
-                options={{
-                  autoStart: true,
-                  loop: true,
-                  delay: 40,
-                  strings: [
-                    "World's largest AI gift sharing platform",
-                    "Send Gifts to anywhere in the world",
-                  ],
-                }}
-              />
+              World's largest AI gift sharing platform
             </h1>
             <h5 className="text-1xl lg:text-4xl sm:text-2xl px-4">
               Share gifts easily and securely using blockchain technology

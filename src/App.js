@@ -6,17 +6,19 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products/Products";
 import ProductSection from "./components/ProductSection";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <>
       <Navbar />
       <Home />
-      <Products />
-      {/* <ProductSection /> */}
+      {/* <Products /> */}
+      <ProductSection />
       <Gift />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </>
   );
 }
