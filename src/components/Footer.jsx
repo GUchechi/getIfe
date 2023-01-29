@@ -41,7 +41,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="font-bold text-[16px] mr-3">
-          <p>&copy;2023</p>
+          <p>&copy;ife 2023</p>
         </div>
       </div>
     </div>
