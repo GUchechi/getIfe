@@ -6,10 +6,11 @@ import {
   FaTelegramPlane,
   FaTwitter,
 } from "react-icons/fa";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Home = () => {
   return (
-    <div className="w-full mx-auto">
+    <div name="home" className="w-full mx-auto">
       <div className=" relative">
         {/* Overlay */}
         <div className="absolute w-full h-full text-white bg-black/50 flex flex-col">
@@ -20,7 +21,10 @@ const Home = () => {
             <h5 className="text-1xl lg:text-4xl sm:text-2xl px-4">
               Share gifts easily and securely using blockchain technology
             </h5>
-            <button className=" py-2 px-4 w-44">Get Early Access</button>
+            <Link to="contact" smooth={true} duration={500}>
+              <button className=" py-2 px-4 w-44">Get Early Access</button>
+            </Link>
+
             <div className="flex gap-6 lg:text-2xl text-1xl">
               <p>Follow us on</p>
               <a

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../Assets/logo.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -20,7 +21,9 @@ const Navbar = () => {
         </div>
 
         <div className="md:block hidden">
-          <button className="text-white px-3 py-3">Get Early Access</button>
+          <Link to="contact" smooth={true} duration={500}>
+            <button className="text-white px-3 py-3">Get Early Access</button>
+          </Link>
         </div>
         {/* Mobile nav */}
         <ul
@@ -30,7 +33,9 @@ const Navbar = () => {
         `}
         >
           <div className="py-5">
-            <button className="text-white px-3 py-3">Get Early Access</button>
+            <Link to="contact" smooth={true} duration={500}>
+              <button className="text-white px-3 py-3">Get Early Access</button>
+            </Link>
           </div>
         </ul>
       </div>
