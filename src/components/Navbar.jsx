@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="z-50 p-3 lg:p-5 md:w-auto w-full flex justify-between">
           <img src={logo} alt="logo" className="md:cursor-pointer h-9" />
           <div
-            className="text-3xl text-[#920F0F] md:hidden"
+            className="text-3xl cursor-pointer text-[#920F0F] md:hidden"
             onClick={() => setOpen(!open)}
           >
             <ion-icon
@@ -21,7 +21,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="md:block hidden">
+        <div className="md:block cursor-pointer hidden">
           <Link to="contact" smooth={true} duration={500}>
             <button className="text-white px-3 py-3">Get Early Access</button>
           </Link>

@@ -1,8 +1,36 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_489hglo",
+        "template_cekz6ec",
+        form.current,
+        "n-7vRxXnjRzFDNYcL"
+      )
+      .then(
+        (result) => {
+          alert("Thank you for signing up for our Waitlist!!!");
+          window.location.reload(false);
+        },
+        (error) => {
+          alert("Failed to Send Message, please try again.");
+        }
+      );
+    e.target.reset();
+  };
+
   return (
-    <div name='contact' className="flex flex-col bg-[#feefe5] justify-center items-center w-full h-full py-12">
+    <div
+      name="contact"
+      className="flex flex-col bg-[#feefe5] justify-center items-center w-full h-full py-12"
+    >
       <div className="flex flex-col justify-center items-center py-12">
         <h2 className="font-bold text-center lg:text-6xl sm:text-4xl text-[48px]">
           Be among the first to experience ifẹ
@@ -11,7 +39,7 @@ const Contact = () => {
           We’ll keep you updated when the product launches
         </p>
       </div>
-      <form className="w-full max-w-sm">
+      <form ref={form} onSubmit={sendEmail} className="w-full max-w-sm">
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
             <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
@@ -24,6 +52,7 @@ const Contact = () => {
               id="inline-full-name"
               type="text"
               placeholder="Full Name"
+              name="user_name"
             />
           </div>
         </div>
@@ -39,6 +68,7 @@ const Contact = () => {
               id="inline-password"
               type="Email"
               placeholder="Email"
+              name="user_email"
             />
           </div>
         </div>
@@ -47,7 +77,7 @@ const Contact = () => {
           <div className="md:w-2/3">
             <button
               className="items-center text-center justify-center shadow-xl bg-[#920F0F] hover:bg[#920F0F] focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-              type="button"
+              type="submit"
             >
               Sign Up
             </button>
