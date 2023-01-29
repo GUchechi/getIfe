@@ -18,3 +18,7 @@
     hover:bg-transparent hover:text-[#920F0F] rounded-full;
   }
 }
+
+body{
+  overflow-x: hidden;
+}
