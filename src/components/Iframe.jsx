@@ -1,11 +1,13 @@
-import React, { useState } from "react";
-import { AiOutlineClose } from "react-icons/ai";
-import alert from "../Assets/alert.png";
+import React from "react";
+import { useNavigate, useParams } from "react-router-dom";
 
 const Iframe = () => {
-  const [modal, setModal] = useState(false);
-  const toggleModal = () => {
-    setModal(!modal);
+  const navigate = useNavigate();
+  const params = useParams();
+  
+  const handleNavigateToPopUpPage = (e) => {
+    e.preventDefault();
+    navigate("/modal");
   };
 
   return (
@@ -18,8 +20,8 @@ const Iframe = () => {
           >
             <form
               id="sib-form"
-              method="POST"
-              action="https://7655f62d.sibforms.com/serve/MUIEAIyJeSo63v0nh6cFiZY7MWvCO7OXB67kX0mRhm9nsogxnJHJTBiv0-YbwNXHa1BWZjxkDrcSni21uFdF_8f8vek2DMb7fyAKpnFosQDwbDuqyIhEAlV2BSt_hbG-SA8O1fqp3soUkFDT9bP9B6tDKcwO5YvQDgXPhFKWWAhr2sPJhiQbYhMVE047bqtuGVP_eeI1SSOyQCmr"
+              // method="POST"
+              // action="https://7655f62d.sibforms.com/serve/MUIEAIyJeSo63v0nh6cFiZY7MWvCO7OXB67kX0mRhm9nsogxnJHJTBiv0-YbwNXHa1BWZjxkDrcSni21uFdF_8f8vek2DMb7fyAKpnFosQDwbDuqyIhEAlV2BSt_hbG-SA8O1fqp3soUkFDT9bP9B6tDKcwO5YvQDgXPhFKWWAhr2sPJhiQbYhMVE047bqtuGVP_eeI1SSOyQCmr"
             >
               <div style={{ padding: "8px 0" }}>
                 <div className="sib-input sib-form-block">
@@ -58,7 +60,7 @@ const Iframe = () => {
                           id="EMAIL"
                           name="EMAIL"
                           autoComplete="off"
-                          placeholder="Email"
+                          placeholder="EMAIL"
                           data-required="true"
                           required
                         />
@@ -76,10 +78,10 @@ const Iframe = () => {
               <div style={{ padding: "8px 0" }}>
                 <div className="sib-form-block" style={{ textAlign: "left" }}>
                   <button
-                    className="sib-form-block__button sib-form-block__button-with-loader iframe-six btn"
+                    className="sib-form-block__button sib-form-block__button-with-loader iframe-six"
                     form="sib-form"
                     type="submit"
-                    onClick={toggleModal}
+                    onClick={handleNavigateToPopUpPage}
                   >
                     <svg
                       className="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
@@ -103,40 +105,6 @@ const Iframe = () => {
           </div>
         </div>
       </div>
-      {modal && (
-        <div className="modal">
-          <div className="overlay"></div>
-          <div className="modal-content">
-            <div className="flex items-center justify-center">
-              <div
-                className=" w-[100%] text-black-700 gap-3 px-4 py-5 text-center flex flex-col items-center justify-center rounded relative"
-                role="alert"
-              >
-                <img src={alert} className="items-center w-[13rem]" alt="" />
-                <h1 className="text-[25px] font-bold">Welcome aboard!</h1>
-                <p className="text-[15px] w-[90%]">
-                  We’ll send an invite to you when the product launches
-                </p>
-
-                <span className="absolute top-0 bottom-0 right-0 px-4 py-3">
-                  <svg
-                    className="fill-current h-6 w-6 text-[#920F0F]"
-                    role="button"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                  >
-                    <title>Close</title>
-                    <path
-                      onClick={toggleModal}
-                      d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
