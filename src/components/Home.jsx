@@ -8,6 +8,7 @@ import ProductSection from "../components/ProductSection";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 
+
 const Home = () => {
   return (
     <div>

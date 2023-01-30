@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../Assets/Heros.jpg";
+import hero from "../Assets/Heros1.jpg";
 import {
   FaInstagram,
   FaLinkedinIn,
