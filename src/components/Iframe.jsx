@@ -51,7 +51,7 @@ const Iframe = () => {
                           id="EMAIL"
                           name="EMAIL"
                           autoComplete="off"
-                          placeholder="EMAIL"
+                          placeholder="Email"
                           data-required="true"
                           required
                         />
