@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route index exact path="/" element={<Home />} />
+        <Route index path="/" element={<Home />} />
         <Route path="/modal" element={<Modal />} />
       </Routes>
     </>
