@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="absolute w-full h-full text-white bg-black/50 flex flex-col">
           <div className=" flex text-center items-center lg:text-start lg:items-start flex-col top-16 gap-8 lg:gap-[50px] absolute lg:top-[28%] lg:ml-[70px]">
             <h1 className="px-4 text-[30px] md:text-5xl lg:text-7xl font-bold">
-              World's Largest AI Gift Sharing latform
+              World's Largest AI Gift Sharing Platform
             </h1>
             <h5 className="text-1xl lg:text-4xl sm:text-2xl px-4">
               Share gifts easily and securely using blockchain technology
