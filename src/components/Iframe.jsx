@@ -124,7 +124,7 @@ const Iframe = () => {
                   We’ll send an invite to you when the product launches
                 </p>
 
-                <span className="absolute top-0 bottom-0 right-0 px-4 py-3">
+                <span className="absolute top-0 bottom-0 right-0 py-3">
                   <svg
                     className="fill-current h-6 w-6 text-[#920F0F]"
                     role="button"
