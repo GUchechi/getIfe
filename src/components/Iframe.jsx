@@ -3,8 +3,12 @@ import alert from "../Assets/alert.png";
 
 const Iframe = () => {
   const [modal, setModal] = useState(false);
+
   const toggleModal = () => {
     setModal(!modal);
+    setTimeout(() => {
+      setModal(modal);
+    }, 3000);
   };
 
   return (
