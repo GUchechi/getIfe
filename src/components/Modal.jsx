@@ -8,6 +8,13 @@ const Modal = () => {
     console.log('clicked')
   };
 
+  if(modal) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
+
+
   return (
     <div>
       <div className="modal">
